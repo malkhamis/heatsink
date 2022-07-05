@@ -1,0 +1,21 @@
+{
+  "heatsinks": [
+
+    {
+      "name":"heatsink/1",
+      "min_temp": 35,
+      "max_temp": 47,
+      "temp_check_period": "500ms",
+      "sensor_path_globs": ["/sys/devices/platform/coretemp.0/hwmon/hwmon*/temp[2-9]_input"],
+      "fan": {
+        "name": "fan/1",
+        "path_glob": "/sys/devices/virtual/hwmon/hwmon*/pwm1",
+        "pwm_period": "50ms",
+        "min_speed_value": "0",
+        "max_speed_value": "255",
+        "response_type": "PowPi"
+      }
+    }
+
+  ]
+}

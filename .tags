@@ -1,0 +1,432 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Close	fanpwm/fanpwm.go	/^func (dr *Driver) Close() error {$/;"	d
+Close	fanpwm/fanpwm.go	/^func (dr *Driver) Close() error {$/;"	f
+Close	fanpwm/helpers_test.go	/^func (ff *fakeFile) Close() error {$/;"	d
+Close	fanpwm/helpers_test.go	/^func (ff *fakeFile) Close() error {$/;"	f
+Close	helpers_test.go	/^func (ffd *fakeFanDriver) Close() (err error) {$/;"	d
+Close	helpers_test.go	/^func (ffd *fakeFanDriver) Close() (err error) {$/;"	f
+Close	helpers_test.go	/^func (fts *fakeThermoSensor) Close() (err error) {$/;"	d
+Close	helpers_test.go	/^func (fts *fakeThermoSensor) Close() (err error) {$/;"	f
+Close	thermosense/helpers_test.go	/^func (ff *fakeFile) Close() error {$/;"	d
+Close	thermosense/helpers_test.go	/^func (ff *fakeFile) Close() error {$/;"	f
+Close	thermosense/thermosense.go	/^func (s *Sensor) Close() error {$/;"	d
+Close	thermosense/thermosense.go	/^func (s *Sensor) Close() error {$/;"	f
+Config	config.go	/^type Config struct {$/;"	d
+Config	config.go	/^type Config struct {$/;"	t
+Driver	fanpwm/fanpwm.go	/^type Driver struct {$/;"	d
+Driver	fanpwm/fanpwm.go	/^type Driver struct {$/;"	t
+ErrControllerStopped	errors.go	/^	ErrControllerStopped  error = constErr("thermal controller is stopped")$/;"	v
+ErrFanDriverClosed	errors.go	/^	ErrFanDriverClosed    error = constErr("fan driver is closed")$/;"	v
+ErrThermoSensorClosed	errors.go	/^	ErrThermoSensorClosed error = constErr("thermal sensor is closed")$/;"	v
+Error	errors.go	/^func (ce constErr) Error() string {$/;"	d
+Error	errors.go	/^func (ce constErr) Error() string {$/;"	f
+Error	heatsink.go	/^func (me multiErrs) Error() string {$/;"	d
+Error	heatsink.go	/^func (me multiErrs) Error() string {$/;"	f
+FanDriver	heatsink.go	/^type FanDriver interface {$/;"	d
+FanDriver	heatsink.go	/^type FanDriver interface {$/;"	t
+FanResponseLinear	options.go	/^	FanResponseLinear$/;"	c
+FanResponsePowPi	options.go	/^	FanResponsePowPi fanResponse = iota$/;"	c
+Heatsink	heatsink.go	/^type Heatsink struct {$/;"	d
+Heatsink	heatsink.go	/^type Heatsink struct {$/;"	t
+Name	fanpwm/fanpwm.go	/^func (dr *Driver) Name() string {$/;"	d
+Name	fanpwm/fanpwm.go	/^func (dr *Driver) Name() string {$/;"	f
+Name	helpers_test.go	/^func (ffd *fakeFanDriver) Name() string {$/;"	d
+Name	helpers_test.go	/^func (ffd *fakeFanDriver) Name() string {$/;"	f
+Name	helpers_test.go	/^func (fts *fakeThermoSensor) Name() string {$/;"	d
+Name	helpers_test.go	/^func (fts *fakeThermoSensor) Name() string {$/;"	f
+Name	thermosense/thermosense.go	/^func (s *Sensor) Name() string {$/;"	d
+Name	thermosense/thermosense.go	/^func (s *Sensor) Name() string {$/;"	f
+New	fanpwm/fanpwm.go	/^func New(filename string, options ...Option) (*Driver, error) {$/;"	d
+New	fanpwm/fanpwm.go	/^func New(filename string, options ...Option) (*Driver, error) {$/;"	f
+New	heatsink.go	/^func New(config *Config, options ...Option) (*Heatsink, error) {$/;"	d
+New	heatsink.go	/^func New(config *Config, options ...Option) (*Heatsink, error) {$/;"	f
+New	thermosense/thermosense.go	/^func New(filename string, options ...Option) (*Sensor, error) {$/;"	d
+New	thermosense/thermosense.go	/^func New(filename string, options ...Option) (*Sensor, error) {$/;"	f
+OptFanResponse	options.go	/^func OptFanResponse(meth fanResponse) Option {$/;"	d
+OptFanResponse	options.go	/^func OptFanResponse(meth fanResponse) Option {$/;"	f
+OptLogger	options.go	/^func OptLogger(logger *zap.Logger) Option {$/;"	d
+OptLogger	options.go	/^func OptLogger(logger *zap.Logger) Option {$/;"	f
+OptMaxSpeedValue	fanpwm/options.go	/^func OptMaxSpeedValue(val string) Option {$/;"	d
+OptMaxSpeedValue	fanpwm/options.go	/^func OptMaxSpeedValue(val string) Option {$/;"	f
+OptMinSpeedValue	fanpwm/options.go	/^func OptMinSpeedValue(val string) Option {$/;"	d
+OptMinSpeedValue	fanpwm/options.go	/^func OptMinSpeedValue(val string) Option {$/;"	f
+OptName	fanpwm/options.go	/^func OptName(name string) Option {$/;"	d
+OptName	fanpwm/options.go	/^func OptName(name string) Option {$/;"	f
+OptName	options.go	/^func OptName(name string) Option {$/;"	d
+OptName	options.go	/^func OptName(name string) Option {$/;"	f
+OptName	thermosense/options.go	/^func OptName(name string) Option {$/;"	d
+OptName	thermosense/options.go	/^func OptName(name string) Option {$/;"	f
+OptPeriodPWM	fanpwm/options.go	/^func OptPeriodPWM(d time.Duration) Option {$/;"	d
+OptPeriodPWM	fanpwm/options.go	/^func OptPeriodPWM(d time.Duration) Option {$/;"	f
+OptTemperatureCheckPeriod	options.go	/^func OptTemperatureCheckPeriod(d time.Duration) Option {$/;"	d
+OptTemperatureCheckPeriod	options.go	/^func OptTemperatureCheckPeriod(d time.Duration) Option {$/;"	f
+Option	fanpwm/options.go	/^type Option func(*Driver)$/;"	d
+Option	fanpwm/options.go	/^type Option func(*Driver)$/;"	t
+Option	options.go	/^type Option func(*Config, *Heatsink)$/;"	d
+Option	options.go	/^type Option func(*Config, *Heatsink)$/;"	t
+Option	thermosense/options.go	/^type Option func(*Sensor)$/;"	d
+Option	thermosense/options.go	/^type Option func(*Sensor)$/;"	t
+Read	thermosense/helpers_test.go	/^func (ff *fakeFile) Read(b []byte) (_ int, err error) {$/;"	d
+Read	thermosense/helpers_test.go	/^func (ff *fakeFile) Read(b []byte) (_ int, err error) {$/;"	f
+Run	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) Run() {$/;"	d
+Run	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) Run() {$/;"	f
+Seek	fanpwm/helpers_test.go	/^func (ff *fakeFile) Seek(off int64, whence int) (n int64, err error) {$/;"	d
+Seek	fanpwm/helpers_test.go	/^func (ff *fakeFile) Seek(off int64, whence int) (n int64, err error) {$/;"	f
+Seek	thermosense/helpers_test.go	/^func (ff *fakeFile) Seek(_ int64, _ int) (_ int64, err error) {$/;"	d
+Seek	thermosense/helpers_test.go	/^func (ff *fakeFile) Seek(_ int64, _ int) (_ int64, err error) {$/;"	f
+Sensor	thermosense/thermosense.go	/^type Sensor struct {$/;"	d
+Sensor	thermosense/thermosense.go	/^type Sensor struct {$/;"	t
+SetDutyCycle	fanpwm/fanpwm.go	/^func (dr *Driver) SetDutyCycle(dcRatio float64) (err error) {$/;"	d
+SetDutyCycle	fanpwm/fanpwm.go	/^func (dr *Driver) SetDutyCycle(dcRatio float64) (err error) {$/;"	f
+SetDutyCycle	helpers_test.go	/^func (ffd *fakeFanDriver) SetDutyCycle(dcRatio float64) (err error) {$/;"	d
+SetDutyCycle	helpers_test.go	/^func (ffd *fakeFanDriver) SetDutyCycle(dcRatio float64) (err error) {$/;"	f
+StartThermalControl	heatsink.go	/^func (hs *Heatsink) StartThermalControl() error {$/;"	d
+StartThermalControl	heatsink.go	/^func (hs *Heatsink) StartThermalControl() error {$/;"	f
+StopThermalControl	heatsink.go	/^func (hs *Heatsink) StopThermalControl() error {$/;"	d
+StopThermalControl	heatsink.go	/^func (hs *Heatsink) StopThermalControl() error {$/;"	f
+Temperature	helpers_test.go	/^func (fts *fakeThermoSensor) Temperature() (temp float64, err error) {$/;"	d
+Temperature	helpers_test.go	/^func (fts *fakeThermoSensor) Temperature() (temp float64, err error) {$/;"	f
+Temperature	thermosense/thermosense.go	/^func (s *Sensor) Temperature() (float64, error) {$/;"	d
+Temperature	thermosense/thermosense.go	/^func (s *Sensor) Temperature() (float64, error) {$/;"	f
+TestConfig	heatsink_test.go	/^func TestConfig(t *testing.T) {$/;"	d
+TestConfig	heatsink_test.go	/^func TestConfig(t *testing.T) {$/;"	f
+TestDriver_Close_concurrently_ShouldNotPanic	fanpwm/fanpwm_test.go	/^func TestDriver_Close_concurrently_ShouldNotPanic(t *testing.T) {$/;"	d
+TestDriver_Close_concurrently_ShouldNotPanic	fanpwm/fanpwm_test.go	/^func TestDriver_Close_concurrently_ShouldNotPanic(t *testing.T) {$/;"	f
+TestDriver_Close_error_closingDevFile	fanpwm/fanpwm_test.go	/^func TestDriver_Close_error_closingDevFile(t *testing.T) {$/;"	d
+TestDriver_Close_error_closingDevFile	fanpwm/fanpwm_test.go	/^func TestDriver_Close_error_closingDevFile(t *testing.T) {$/;"	f
+TestDriver_Close_error_settingFanSpeedToMax	fanpwm/fanpwm_test.go	/^func TestDriver_Close_error_settingFanSpeedToMax(t *testing.T) {$/;"	d
+TestDriver_Close_error_settingFanSpeedToMax	fanpwm/fanpwm_test.go	/^func TestDriver_Close_error_settingFanSpeedToMax(t *testing.T) {$/;"	f
+TestDriver_SetDutyCycle_errorSync	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_errorSync(t *testing.T) {$/;"	d
+TestDriver_SetDutyCycle_errorSync	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_errorSync(t *testing.T) {$/;"	f
+TestDriver_SetDutyCycle_errorTruncate	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_errorTruncate(t *testing.T) {$/;"	d
+TestDriver_SetDutyCycle_errorTruncate	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_errorTruncate(t *testing.T) {$/;"	f
+TestDriver_SetDutyCycle_max_min	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_max_min(t *testing.T) {$/;"	d
+TestDriver_SetDutyCycle_max_min	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_max_min(t *testing.T) {$/;"	f
+TestDriver_SetDutyCycle_unknownPanicsAreNotSilenced	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_unknownPanicsAreNotSilenced(t *testing.T) {$/;"	d
+TestDriver_SetDutyCycle_unknownPanicsAreNotSilenced	fanpwm/fanpwm_test.go	/^func TestDriver_SetDutyCycle_unknownPanicsAreNotSilenced(t *testing.T) {$/;"	f
+TestDriver_concurrentUseAfterClose	fanpwm/fanpwm_test.go	/^func TestDriver_concurrentUseAfterClose(t *testing.T) {$/;"	d
+TestDriver_concurrentUseAfterClose	fanpwm/fanpwm_test.go	/^func TestDriver_concurrentUseAfterClose(t *testing.T) {$/;"	f
+TestDriver_lifeCycle	fanpwm/lifecycle_test.go	/^func TestDriver_lifeCycle(t *testing.T) {$/;"	d
+TestDriver_lifeCycle	fanpwm/lifecycle_test.go	/^func TestDriver_lifeCycle(t *testing.T) {$/;"	f
+TestDutyCycler_Linear	dutycyclers_test.go	/^func TestDutyCycler_Linear(t *testing.T) {$/;"	d
+TestDutyCycler_Linear	dutycyclers_test.go	/^func TestDutyCycler_Linear(t *testing.T) {$/;"	f
+TestDutyCycler_PowPi	dutycyclers_test.go	/^func TestDutyCycler_PowPi(t *testing.T) {$/;"	d
+TestDutyCycler_PowPi	dutycyclers_test.go	/^func TestDutyCycler_PowPi(t *testing.T) {$/;"	f
+TestHeatsink	heatsink_test.go	/^func TestHeatsink(t *testing.T) {$/;"	d
+TestHeatsink	heatsink_test.go	/^func TestHeatsink(t *testing.T) {$/;"	f
+TestHeatsink_StartThermalControl_errorReadingMaxCoreTemp	heatsink_test.go	/^func TestHeatsink_StartThermalControl_errorReadingMaxCoreTemp(t *testing.T) {$/;"	d
+TestHeatsink_StartThermalControl_errorReadingMaxCoreTemp	heatsink_test.go	/^func TestHeatsink_StartThermalControl_errorReadingMaxCoreTemp(t *testing.T) {$/;"	f
+TestHeatsink_StartThermalControl_errorSettingDutyCycle	heatsink_test.go	/^func TestHeatsink_StartThermalControl_errorSettingDutyCycle(t *testing.T) {$/;"	d
+TestHeatsink_StartThermalControl_errorSettingDutyCycle	heatsink_test.go	/^func TestHeatsink_StartThermalControl_errorSettingDutyCycle(t *testing.T) {$/;"	f
+TestHeatsink_StartThermalControl_logsErrorFromStoppingThermalControl	heatsink_test.go	/^func TestHeatsink_StartThermalControl_logsErrorFromStoppingThermalControl(t *testing.T) {$/;"	d
+TestHeatsink_StartThermalControl_logsErrorFromStoppingThermalControl	heatsink_test.go	/^func TestHeatsink_StartThermalControl_logsErrorFromStoppingThermalControl(t *testing.T) {$/;"	f
+TestHeatsink_StartThermalControl_logsErrorIfOneSensorFails	heatsink_test.go	/^func TestHeatsink_StartThermalControl_logsErrorIfOneSensorFails(t *testing.T) {$/;"	d
+TestHeatsink_StartThermalControl_logsErrorIfOneSensorFails	heatsink_test.go	/^func TestHeatsink_StartThermalControl_logsErrorIfOneSensorFails(t *testing.T) {$/;"	f
+TestHeatsink_StopThermalControl_multipleErrs	heatsink_test.go	/^func TestHeatsink_StopThermalControl_multipleErrs(t *testing.T) {$/;"	d
+TestHeatsink_StopThermalControl_multipleErrs	heatsink_test.go	/^func TestHeatsink_StopThermalControl_multipleErrs(t *testing.T) {$/;"	f
+TestMain	cmd/main_test.go	/^func TestMain(t *testing.T) {$/;"	d
+TestMain	cmd/main_test.go	/^func TestMain(t *testing.T) {$/;"	f
+TestNew_copiesSensors	heatsink_test.go	/^func TestNew_copiesSensors(t *testing.T) {$/;"	d
+TestNew_copiesSensors	heatsink_test.go	/^func TestNew_copiesSensors(t *testing.T) {$/;"	f
+TestNew_defaults	fanpwm/fanpwm_test.go	/^func TestNew_defaults(t *testing.T) {$/;"	d
+TestNew_defaults	fanpwm/fanpwm_test.go	/^func TestNew_defaults(t *testing.T) {$/;"	f
+TestNew_defaults	heatsink_test.go	/^func TestNew_defaults(t *testing.T) {$/;"	d
+TestNew_defaults	heatsink_test.go	/^func TestNew_defaults(t *testing.T) {$/;"	f
+TestNew_defaults	thermosense/thermosense_test.go	/^func TestNew_defaults(t *testing.T) {$/;"	d
+TestNew_defaults	thermosense/thermosense_test.go	/^func TestNew_defaults(t *testing.T) {$/;"	f
+TestNew_error	fanpwm/fanpwm_test.go	/^func TestNew_error(t *testing.T) {$/;"	d
+TestNew_error	fanpwm/fanpwm_test.go	/^func TestNew_error(t *testing.T) {$/;"	f
+TestNew_error	thermosense/thermosense_test.go	/^func TestNew_error(t *testing.T) {$/;"	d
+TestNew_error	thermosense/thermosense_test.go	/^func TestNew_error(t *testing.T) {$/;"	f
+TestNew_invalidOptions	fanpwm/fanpwm_test.go	/^func TestNew_invalidOptions(t *testing.T) {$/;"	d
+TestNew_invalidOptions	fanpwm/fanpwm_test.go	/^func TestNew_invalidOptions(t *testing.T) {$/;"	f
+TestNew_invalidOptions	heatsink_test.go	/^func TestNew_invalidOptions(t *testing.T) {$/;"	d
+TestNew_invalidOptions	heatsink_test.go	/^func TestNew_invalidOptions(t *testing.T) {$/;"	f
+TestNew_invalidOptions	thermosense/thermosense_test.go	/^func TestNew_invalidOptions(t *testing.T) {$/;"	d
+TestNew_invalidOptions	thermosense/thermosense_test.go	/^func TestNew_invalidOptions(t *testing.T) {$/;"	f
+TestNew_validOptions	fanpwm/fanpwm_test.go	/^func TestNew_validOptions(t *testing.T) {$/;"	d
+TestNew_validOptions	fanpwm/fanpwm_test.go	/^func TestNew_validOptions(t *testing.T) {$/;"	f
+TestNew_validOptions	heatsink_test.go	/^func TestNew_validOptions(t *testing.T) {$/;"	d
+TestNew_validOptions	heatsink_test.go	/^func TestNew_validOptions(t *testing.T) {$/;"	f
+TestNew_validOptions	thermosense/thermosense_test.go	/^func TestNew_validOptions(t *testing.T) {$/;"	d
+TestNew_validOptions	thermosense/thermosense_test.go	/^func TestNew_validOptions(t *testing.T) {$/;"	f
+TestNew_validOptions_defaultFanResponse	heatsink_test.go	/^func TestNew_validOptions_defaultFanResponse(t *testing.T) {$/;"	d
+TestNew_validOptions_defaultFanResponse	heatsink_test.go	/^func TestNew_validOptions_defaultFanResponse(t *testing.T) {$/;"	f
+TestSensor_Close	thermosense/thermosense_test.go	/^func TestSensor_Close(t *testing.T) {$/;"	d
+TestSensor_Close	thermosense/thermosense_test.go	/^func TestSensor_Close(t *testing.T) {$/;"	f
+TestSensor_Close_concurrently	thermosense/thermosense_test.go	/^func TestSensor_Close_concurrently(t *testing.T) {$/;"	d
+TestSensor_Close_concurrently	thermosense/thermosense_test.go	/^func TestSensor_Close_concurrently(t *testing.T) {$/;"	f
+TestSensor_Close_concurrently_error	thermosense/thermosense_test.go	/^func TestSensor_Close_concurrently_error(t *testing.T) {$/;"	d
+TestSensor_Close_concurrently_error	thermosense/thermosense_test.go	/^func TestSensor_Close_concurrently_error(t *testing.T) {$/;"	f
+TestSensor_Close_error	thermosense/thermosense_test.go	/^func TestSensor_Close_error(t *testing.T) {$/;"	d
+TestSensor_Close_error	thermosense/thermosense_test.go	/^func TestSensor_Close_error(t *testing.T) {$/;"	f
+TestSensor_Temperature_errorScan	thermosense/thermosense_test.go	/^func TestSensor_Temperature_errorScan(t *testing.T) {$/;"	d
+TestSensor_Temperature_errorScan	thermosense/thermosense_test.go	/^func TestSensor_Temperature_errorScan(t *testing.T) {$/;"	f
+TestSensor_Temperature_errorSeek	thermosense/thermosense_test.go	/^func TestSensor_Temperature_errorSeek(t *testing.T) {$/;"	d
+TestSensor_Temperature_errorSeek	thermosense/thermosense_test.go	/^func TestSensor_Temperature_errorSeek(t *testing.T) {$/;"	f
+TestSensor_lifeCycle	thermosense/lifecycle_test.go	/^func TestSensor_lifeCycle(t *testing.T) {$/;"	d
+TestSensor_lifeCycle	thermosense/lifecycle_test.go	/^func TestSensor_lifeCycle(t *testing.T) {$/;"	f
+Test_config_newHeatsinks	cmd/config_test.go	/^func Test_config_newHeatsinks(t *testing.T) {$/;"	d
+Test_config_newHeatsinks	cmd/config_test.go	/^func Test_config_newHeatsinks(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingFan	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingFan	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingFan_badGlob	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan_badGlob(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingFan_badGlob	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan_badGlob(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingFan_globeTooManyMatches	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan_globeTooManyMatches(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingFan_globeTooManyMatches	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan_globeTooManyMatches(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingFan_noGlobMatches	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan_noGlobMatches(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingFan_noGlobMatches	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingFan_noGlobMatches(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingHeatsink	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingHeatsink(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingHeatsink	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingHeatsink(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingSensor	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingSensor(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingSensor	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingSensor(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingSensor_badGlob	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingSensor_badGlob(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingSensor_badGlob	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingSensor_badGlob(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_errorCreatingSensor_noGlobMatches	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingSensor_noGlobMatches(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_errorCreatingSensor_noGlobMatches	cmd/config_test.go	/^func Test_config_newHeatsinks_errorCreatingSensor_noGlobMatches(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_error_badFanResponseType	cmd/config_test.go	/^func Test_config_newHeatsinks_error_badFanResponseType(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_error_badFanResponseType	cmd/config_test.go	/^func Test_config_newHeatsinks_error_badFanResponseType(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_error_tempChkPeriod_wrongType	cmd/config_test.go	/^func Test_config_newHeatsinks_error_tempChkPeriod_wrongType(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_error_tempChkPeriod_wrongType	cmd/config_test.go	/^func Test_config_newHeatsinks_error_tempChkPeriod_wrongType(t *testing.T) {$/;"	f
+Test_config_newHeatsinks_fan_pwmPeriod_wrongType	cmd/config_test.go	/^func Test_config_newHeatsinks_fan_pwmPeriod_wrongType(t *testing.T) {$/;"	d
+Test_config_newHeatsinks_fan_pwmPeriod_wrongType	cmd/config_test.go	/^func Test_config_newHeatsinks_fan_pwmPeriod_wrongType(t *testing.T) {$/;"	f
+Test_constErr_Error	heatsink_test.go	/^func Test_constErr_Error(t *testing.T) {$/;"	d
+Test_constErr_Error	heatsink_test.go	/^func Test_constErr_Error(t *testing.T) {$/;"	f
+Test_execute	cmd/main_test.go	/^func Test_execute(t *testing.T) {$/;"	d
+Test_execute	cmd/main_test.go	/^func Test_execute(t *testing.T) {$/;"	f
+Test_execute_badHeatsinkConfig	cmd/main_test.go	/^func Test_execute_badHeatsinkConfig(t *testing.T) {$/;"	d
+Test_execute_badHeatsinkConfig	cmd/main_test.go	/^func Test_execute_badHeatsinkConfig(t *testing.T) {$/;"	f
+Test_execute_badJsonFile	cmd/main_test.go	/^func Test_execute_badJsonFile(t *testing.T) {$/;"	d
+Test_execute_badJsonFile	cmd/main_test.go	/^func Test_execute_badJsonFile(t *testing.T) {$/;"	f
+Test_execute_fileNotExist	cmd/main_test.go	/^func Test_execute_fileNotExist(t *testing.T) {$/;"	d
+Test_execute_fileNotExist	cmd/main_test.go	/^func Test_execute_fileNotExist(t *testing.T) {$/;"	f
+Test_execute_invalidHeatsinkConfig	cmd/main_test.go	/^func Test_execute_invalidHeatsinkConfig(t *testing.T) {$/;"	d
+Test_execute_invalidHeatsinkConfig	cmd/main_test.go	/^func Test_execute_invalidHeatsinkConfig(t *testing.T) {$/;"	f
+Test_execute_noFileArg	cmd/main_test.go	/^func Test_execute_noFileArg(t *testing.T) {$/;"	d
+Test_execute_noFileArg	cmd/main_test.go	/^func Test_execute_noFileArg(t *testing.T) {$/;"	f
+Test_getLoggerAndPrintErrIfAny	cmd/main_test.go	/^func Test_getLoggerAndPrintErrIfAny(t *testing.T) {$/;"	d
+Test_getLoggerAndPrintErrIfAny	cmd/main_test.go	/^func Test_getLoggerAndPrintErrIfAny(t *testing.T) {$/;"	f
+Test_multiErrs_Error_singleErr	heatsink_test.go	/^func Test_multiErrs_Error_singleErr(t *testing.T) {$/;"	d
+Test_multiErrs_Error_singleErr	heatsink_test.go	/^func Test_multiErrs_Error_singleErr(t *testing.T) {$/;"	f
+Test_newConfig_errBadJson	cmd/config_test.go	/^func Test_newConfig_errBadJson(t *testing.T) {$/;"	d
+Test_newConfig_errBadJson	cmd/config_test.go	/^func Test_newConfig_errBadJson(t *testing.T) {$/;"	f
+Test_newConfig_errNilReader	cmd/config_test.go	/^func Test_newConfig_errNilReader(t *testing.T) {$/;"	d
+Test_newConfig_errNilReader	cmd/config_test.go	/^func Test_newConfig_errNilReader(t *testing.T) {$/;"	f
+Test_newConfig_errNoHeatsinkConfig	cmd/config_test.go	/^func Test_newConfig_errNoHeatsinkConfig(t *testing.T) {$/;"	d
+Test_newConfig_errNoHeatsinkConfig	cmd/config_test.go	/^func Test_newConfig_errNoHeatsinkConfig(t *testing.T) {$/;"	f
+Test_newConfig_setsDefaults	cmd/config_test.go	/^func Test_newConfig_setsDefaults(t *testing.T) {$/;"	d
+Test_newConfig_setsDefaults	cmd/config_test.go	/^func Test_newConfig_setsDefaults(t *testing.T) {$/;"	f
+ThermoSensor	heatsink.go	/^type ThermoSensor interface {$/;"	d
+ThermoSensor	heatsink.go	/^type ThermoSensor interface {$/;"	t
+Truncate	fanpwm/helpers_test.go	/^func (ff *fakeFile) Truncate(sz int64) (err error) {$/;"	d
+Truncate	fanpwm/helpers_test.go	/^func (ff *fakeFile) Truncate(sz int64) (err error) {$/;"	f
+Write	fanpwm/helpers_test.go	/^func (ff *fakeFile) Write(b []byte) (n int, err error) {$/;"	d
+Write	fanpwm/helpers_test.go	/^func (ff *fakeFile) Write(b []byte) (n int, err error) {$/;"	f
+_	dutycyclers.go	/^	_ dutyCycler = (*dutyCyclerLinear)(nil)$/;"	v
+_	dutycyclers.go	/^	_ dutyCycler = (*dutyCyclerPowPi)(nil)$/;"	v
+_	fanpwm/fanpwm.go	/^var _ heatsink.FanDriver = (*Driver)(nil)$/;"	v
+_	fanpwm/helpers_test.go	/^var _ wrOnlyFile = (*fakeFile)(nil)$/;"	v
+_	helpers_test.go	/^	_ FanDriver    = (*fakeFanDriver)(nil)$/;"	v
+_	helpers_test.go	/^	_ ThermoSensor = (*fakeThermoSensor)(nil)$/;"	v
+_	helpers_test.go	/^	_ dutyCycler   = (*fakeDutyCycler)(nil)$/;"	v
+_	thermosense/helpers_test.go	/^var _ rdOnlyFile = (*fakeFile)(nil)$/;"	v
+_	thermosense/thermosense.go	/^var _ heatsink.ThermoSensor = (*Sensor)(nil)$/;"	v
+actualErr	heatsink_test.go	/^	var actualErr multiErrs$/;"	d
+are	fanpwm/fanpwm.go	/^\/\/ of this type are safe for concurrent use although it is not recommended to be used that way$/;"	d
+are	thermosense/thermosense.go	/^\/\/ of this type are safe for concurrent use$/;"	d
+backupProcArgs	cmd/helpers_test.go	/^func backupProcArgs(t *testing.T) (restore func()) {$/;"	d
+backupProcArgs	cmd/helpers_test.go	/^func backupProcArgs(t *testing.T) (restore func()) {$/;"	f
+calcDurations	fanpwm/driver_internal.go	/^func (dr *Driver) calcDurations(dcRatio float64) (dn, up time.Duration, isFlatPulse bool) {$/;"	d
+calcDurations	fanpwm/driver_internal.go	/^func (dr *Driver) calcDurations(dcRatio float64) (dn, up time.Duration, isFlatPulse bool) {$/;"	f
+close	thermosense/sensor_internal.go	/^func (s *Sensor) close() error {$/;"	d
+close	thermosense/sensor_internal.go	/^func (s *Sensor) close() error {$/;"	f
+collectPulseSamples	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) collectPulseSamples() *fakeFile {$/;"	d
+collectPulseSamples	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) collectPulseSamples() *fakeFile {$/;"	f
+config	cmd/config.go	/^type config struct {$/;"	d
+config	cmd/config.go	/^type config struct {$/;"	t
+configFan	cmd/config.go	/^type configFan struct {$/;"	d
+configFan	cmd/config.go	/^type configFan struct {$/;"	t
+configHeatsink	cmd/config.go	/^type configHeatsink struct {$/;"	d
+configHeatsink	cmd/config.go	/^type configHeatsink struct {$/;"	t
+configSensors	cmd/config.go	/^type configSensors []string$/;"	d
+configSensors	cmd/config.go	/^type configSensors []string$/;"	t
+constErr	errors.go	/^type constErr string$/;"	d
+constErr	errors.go	/^type constErr string$/;"	t
+degCelsius	thermosense/sensor_internal.go	/^func (t tempMilliDegCelsius) degCelsius() float64 {$/;"	d
+degCelsius	thermosense/sensor_internal.go	/^func (t tempMilliDegCelsius) degCelsius() float64 {$/;"	f
+dutyCycler	heatsink.go	/^type dutyCycler interface {$/;"	d
+dutyCycler	heatsink.go	/^type dutyCycler interface {$/;"	t
+dutyCyclerLinear	dutycyclers.go	/^type dutyCyclerLinear struct {$/;"	d
+dutyCyclerLinear	dutycyclers.go	/^type dutyCyclerLinear struct {$/;"	t
+dutyCyclerPowPi	dutycyclers.go	/^type dutyCyclerPowPi struct {$/;"	d
+dutyCyclerPowPi	dutycyclers.go	/^type dutyCyclerPowPi struct {$/;"	t
+errBadDuration	cmd/config.go	/^	errBadDuration        = errors.New("error parsing string as duration")$/;"	v
+errBadTemps	config.go	/^	errBadTemps  = errors.New("maximum temperature must be greater than the minimum")$/;"	v
+errFanRespTypeUnknwon	cmd/config.go	/^	errFanRespTypeUnknwon = errors.New("unknown fan response type")$/;"	v
+errGlobNoMatches	cmd/config.go	/^	errGlobNoMatches      = errors.New("no file matches for the given glob(s)")$/;"	v
+errGlobTooManyMatches	cmd/config.go	/^	errGlobTooManyMatches = errors.New("too many matches for the given globe(s)")$/;"	v
+errNilSensor	config.go	/^	errNilSensor = errors.New("a given sensor cannot be nil")$/;"	v
+errNoConfig	errors.go	/^	errNoConfig = errors.New("no configuration given")$/;"	v
+errNoFan	config.go	/^	errNoFan     = errors.New("no fan given")$/;"	v
+errNoHeatsinkConfig	cmd/config.go	/^	errNoHeatsinkConfig   = errors.New("no heatsink config in given json data")$/;"	v
+errNoJsonConfig	cmd/config.go	/^	errNoJsonConfig       = errors.New("no json config data given")$/;"	v
+errNoSensors	config.go	/^	errNoSensors = errors.New("no thermal sensors given")$/;"	v
+errs	heatsink.go	/^	var errs multiErrs$/;"	d
+execute	cmd/main.go	/^func execute() (exitCode int) {$/;"	d
+execute	cmd/main.go	/^func execute() (exitCode int) {$/;"	f
+expected	cmd/config_test.go	/^	var expected *json.SyntaxError$/;"	d
+fakeDutyCycler	helpers_test.go	/^type fakeDutyCycler struct {$/;"	d
+fakeDutyCycler	helpers_test.go	/^type fakeDutyCycler struct {$/;"	t
+fakeFanDriver	helpers_test.go	/^type fakeFanDriver struct {$/;"	d
+fakeFanDriver	helpers_test.go	/^type fakeFanDriver struct {$/;"	t
+fakeFile	fanpwm/helpers_test.go	/^type fakeFile struct {$/;"	d
+fakeFile	fanpwm/helpers_test.go	/^type fakeFile struct {$/;"	t
+fakeFile	thermosense/helpers_test.go	/^type fakeFile struct {$/;"	d
+fakeFile	thermosense/helpers_test.go	/^type fakeFile struct {$/;"	t
+fakeThermoSensor	helpers_test.go	/^type fakeThermoSensor struct {$/;"	d
+fakeThermoSensor	helpers_test.go	/^type fakeThermoSensor struct {$/;"	t
+fan	cmd/config.json	/^      "fan": {$/;"	f
+fanResponse	options.go	/^type fanResponse int$/;"	d
+fanResponse	options.go	/^type fanResponse int$/;"	t
+fanpwm	fanpwm/driver_internal.go	/^package fanpwm$/;"	p
+fanpwm	fanpwm/fanpwm.go	/^package fanpwm$/;"	p
+fanpwm	fanpwm/fanpwm_test.go	/^package fanpwm$/;"	p
+fanpwm	fanpwm/helpers_test.go	/^package fanpwm$/;"	p
+fanpwm	fanpwm/lifecycle_test.go	/^package fanpwm$/;"	p
+fanpwm	fanpwm/options.go	/^package fanpwm$/;"	p
+ffArgPassedToSeek	fanpwm/helpers_test.go	/^type ffArgPassedToSeek struct {$/;"	d
+ffArgPassedToSeek	fanpwm/helpers_test.go	/^type ffArgPassedToSeek struct {$/;"	t
+ffArgPassedToTruncate	fanpwm/helpers_test.go	/^type ffArgPassedToTruncate struct {$/;"	d
+ffArgPassedToTruncate	fanpwm/helpers_test.go	/^type ffArgPassedToTruncate struct {$/;"	t
+ffArgPassedToWrite	fanpwm/helpers_test.go	/^type ffArgPassedToWrite struct {$/;"	d
+ffArgPassedToWrite	fanpwm/helpers_test.go	/^type ffArgPassedToWrite struct {$/;"	t
+getLoggerAndPrintErrIfAny	cmd/main.go	/^func getLoggerAndPrintErrIfAny(logger *zap.Logger, err error) *zap.Logger {$/;"	d
+getLoggerAndPrintErrIfAny	cmd/main.go	/^func getLoggerAndPrintErrIfAny(logger *zap.Logger, err error) *zap.Logger {$/;"	f
+heatsink	config.go	/^package heatsink$/;"	p
+heatsink	dutycyclers.go	/^package heatsink$/;"	p
+heatsink	dutycyclers_test.go	/^package heatsink$/;"	p
+heatsink	errors.go	/^package heatsink$/;"	p
+heatsink	heatsink.go	/^package heatsink$/;"	p
+heatsink	heatsink_test.go	/^package heatsink$/;"	p
+heatsink	helpers_test.go	/^package heatsink$/;"	p
+heatsink	options.go	/^package heatsink$/;"	p
+heatsinks	cmd/config.go	/^	var heatsinks []*heatsink.Heatsink$/;"	d
+heatsinks	cmd/config.json	/^  "heatsinks": [$/;"	f
+isClosed	fanpwm/driver_internal.go	/^func (dr *Driver) isClosed() bool {$/;"	d
+isClosed	fanpwm/driver_internal.go	/^func (dr *Driver) isClosed() bool {$/;"	f
+iter	fanpwm/helpers_test.go	/^func iter(n int) []struct{} {$/;"	d
+iter	fanpwm/helpers_test.go	/^func iter(n int) []struct{} {$/;"	f
+iter	thermosense/helpers_test.go	/^func iter(n int) []struct{} {$/;"	d
+iter	thermosense/helpers_test.go	/^func iter(n int) []struct{} {$/;"	f
+lifeCycleTest	fanpwm/lifecycle_test.go	/^type lifeCycleTest struct {$/;"	d
+lifeCycleTest	fanpwm/lifecycle_test.go	/^type lifeCycleTest struct {$/;"	t
+main	cmd/config.go	/^package main$/;"	p
+main	cmd/config_test.go	/^package main$/;"	p
+main	cmd/helpers_test.go	/^package main$/;"	p
+main	cmd/main.go	/^func main() {$/;"	d
+main	cmd/main.go	/^func main() {$/;"	f
+main	cmd/main.go	/^package main$/;"	p
+main	cmd/main_test.go	/^package main$/;"	p
+maxCoreTemp	heatsink.go	/^func (hs *Heatsink) maxCoreTemp() (max float64, err error) {$/;"	d
+maxCoreTemp	heatsink.go	/^func (hs *Heatsink) maxCoreTemp() (max float64, err error) {$/;"	f
+max_speed_value	cmd/config.json	/^        "max_speed_value": "255",$/;"	f
+max_temp	cmd/config.json	/^      "max_temp": 47,$/;"	f
+min_speed_value	cmd/config.json	/^        "min_speed_value": "0",$/;"	f
+min_temp	cmd/config.json	/^      "min_temp": 35,$/;"	f
+multiErrs	heatsink.go	/^type multiErrs []error$/;"	d
+multiErrs	heatsink.go	/^type multiErrs []error$/;"	t
+name	cmd/config.json	/^        "name": "fan\/1",$/;"	f
+name	cmd/config.json	/^      "name":"heatsink\/1",$/;"	f
+newConfig	cmd/config.go	/^func newConfig(jsonData io.Reader, logger *zap.Logger) (*config, error) {$/;"	d
+newConfig	cmd/config.go	/^func newConfig(jsonData io.Reader, logger *zap.Logger) (*config, error) {$/;"	f
+newDutyCyclerLinear	dutycyclers.go	/^func newDutyCyclerLinear(minTemp, maxTemp float64) *dutyCyclerLinear {$/;"	d
+newDutyCyclerLinear	dutycyclers.go	/^func newDutyCyclerLinear(minTemp, maxTemp float64) *dutyCyclerLinear {$/;"	f
+newDutyCyclerPowPi	dutycyclers.go	/^func newDutyCyclerPowPi(minTemp, maxTemp float64) *dutyCyclerPowPi {$/;"	d
+newDutyCyclerPowPi	dutycyclers.go	/^func newDutyCyclerPowPi(minTemp, maxTemp float64) *dutyCyclerPowPi {$/;"	f
+newFan	cmd/config.go	/^func (c configFan) newFan(logger *zap.Logger) (heatsink.FanDriver, error) {$/;"	d
+newFan	cmd/config.go	/^func (c configFan) newFan(logger *zap.Logger) (heatsink.FanDriver, error) {$/;"	f
+newHeatsink	cmd/config.go	/^func (c *configHeatsink) newHeatsink(logger *zap.Logger) (*heatsink.Heatsink, error) {$/;"	d
+newHeatsink	cmd/config.go	/^func (c *configHeatsink) newHeatsink(logger *zap.Logger) (*heatsink.Heatsink, error) {$/;"	f
+newHeatsinks	cmd/config.go	/^func (c *config) newHeatsinks() ([]*heatsink.Heatsink, error) {$/;"	d
+newHeatsinks	cmd/config.go	/^func (c *config) newHeatsinks() ([]*heatsink.Heatsink, error) {$/;"	f
+newLifeCycleTest	fanpwm/lifecycle_test.go	/^func newLifeCycleTest(t *testing.T) *lifeCycleTest {$/;"	d
+newLifeCycleTest	fanpwm/lifecycle_test.go	/^func newLifeCycleTest(t *testing.T) *lifeCycleTest {$/;"	f
+newLogger	cmd/main.go	/^var newLogger = func() *zap.Logger {$/;"	d
+newLogger	cmd/main.go	/^var newLogger = func() *zap.Logger {$/;"	v
+newSensors	cmd/config.go	/^func (c configSensors) newSensors(logger *zap.Logger) ([]heatsink.ThermoSensor, error) {$/;"	d
+newSensors	cmd/config.go	/^func (c configSensors) newSensors(logger *zap.Logger) ([]heatsink.ThermoSensor, error) {$/;"	f
+optRespType	cmd/config.go	/^	var optRespType heatsink.Option$/;"	d
+osExit	cmd/main.go	/^var osExit = os.Exit$/;"	d
+osExit	cmd/main.go	/^var osExit = os.Exit$/;"	v
+path_glob	cmd/config.json	/^        "path_glob": "\/sys\/devices\/virtual\/hwmon\/hwmon*\/pwm1",$/;"	f
+pwm_period	cmd/config.json	/^        "pwm_period": "50ms",$/;"	f
+ratio	dutycyclers.go	/^func (dc *dutyCyclerLinear) ratio(temp float64) float64 {$/;"	d
+ratio	dutycyclers.go	/^func (dc *dutyCyclerLinear) ratio(temp float64) float64 {$/;"	f
+ratio	dutycyclers.go	/^func (dc *dutyCyclerPowPi) ratio(temp float64) float64 {$/;"	d
+ratio	dutycyclers.go	/^func (dc *dutyCyclerPowPi) ratio(temp float64) float64 {$/;"	f
+ratio	helpers_test.go	/^func (fdc *fakeDutyCycler) ratio(temp float64) (dcRatio float64) {$/;"	d
+ratio	helpers_test.go	/^func (fdc *fakeDutyCycler) ratio(temp float64) (dcRatio float64) {$/;"	f
+rdOnlyFile	thermosense/sensor_internal.go	/^type rdOnlyFile interface {$/;"	d
+rdOnlyFile	thermosense/sensor_internal.go	/^type rdOnlyFile interface {$/;"	t
+response_type	cmd/config.json	/^        "response_type": "PowPi"$/;"	f
+sb	heatsink.go	/^	var sb strings.Builder$/;"	d
+sensor_path_globs	cmd/config.json	/^      "sensor_path_globs": ["\/sys\/devices\/platform\/coretemp.0\/hwmon\/hwmon*\/temp[2-9]_input"],$/;"	f
+setSpeedMax	fanpwm/driver_internal.go	/^func (dr *Driver) setSpeedMax() error {$/;"	d
+setSpeedMax	fanpwm/driver_internal.go	/^func (dr *Driver) setSpeedMax() error {$/;"	f
+setSpeedMin	fanpwm/driver_internal.go	/^func (dr *Driver) setSpeedMin() error {$/;"	d
+setSpeedMin	fanpwm/driver_internal.go	/^func (dr *Driver) setSpeedMin() error {$/;"	f
+startAsyncNopPWM	fanpwm/driver_internal.go	/^func (dr *Driver) startAsyncNopPWM() {$/;"	d
+startAsyncNopPWM	fanpwm/driver_internal.go	/^func (dr *Driver) startAsyncNopPWM() {$/;"	f
+startAsyncPWM	fanpwm/driver_internal.go	/^func (dr *Driver) startAsyncPWM(dn, up time.Duration) {$/;"	d
+startAsyncPWM	fanpwm/driver_internal.go	/^func (dr *Driver) startAsyncPWM(dn, up time.Duration) {$/;"	f
+stdoutStream	cmd/helpers_test.go	/^func stdoutStream(t *testing.T) (stdoutLines <-chan []byte, streamErr <-chan error, restoreStdout func()) {$/;"	d
+stdoutStream	cmd/helpers_test.go	/^func stdoutStream(t *testing.T) (stdoutLines <-chan []byte, streamErr <-chan error, restoreStdout func()) {$/;"	f
+temp	thermosense/sensor_internal.go	/^	var temp tempMilliDegCelsius$/;"	d
+tempMilliDegCelsius	thermosense/sensor_internal.go	/^type tempMilliDegCelsius int$/;"	d
+tempMilliDegCelsius	thermosense/sensor_internal.go	/^type tempMilliDegCelsius int$/;"	t
+temp_check_period	cmd/config.json	/^      "temp_check_period": "500ms",$/;"	f
+temperature	thermosense/sensor_internal.go	/^func (s *Sensor) temperature() (float64, error) {$/;"	d
+temperature	thermosense/sensor_internal.go	/^func (s *Sensor) temperature() (float64, error) {$/;"	f
+temporaryFile	cmd/helpers_test.go	/^func temporaryFile(t *testing.T) (file *os.File, cleanup func()) {$/;"	d
+temporaryFile	cmd/helpers_test.go	/^func temporaryFile(t *testing.T) (file *os.File, cleanup func()) {$/;"	f
+temporaryFile	fanpwm/helpers_test.go	/^func temporaryFile(t *testing.T) (file *os.File, cleanup func()) {$/;"	d
+temporaryFile	fanpwm/helpers_test.go	/^func temporaryFile(t *testing.T) (file *os.File, cleanup func()) {$/;"	f
+temporaryFile	thermosense/helpers_test.go	/^func temporaryFile(t *testing.T) (file *os.File, cleanup func()) {$/;"	d
+temporaryFile	thermosense/helpers_test.go	/^func temporaryFile(t *testing.T) (file *os.File, cleanup func()) {$/;"	f
+testDriver	fanpwm/helpers_test.go	/^func testDriver(t *testing.T) (*Driver, *fakeFile) {$/;"	d
+testDriver	fanpwm/helpers_test.go	/^func testDriver(t *testing.T) (*Driver, *fakeFile) {$/;"	f
+testDriver_Close_thenUse	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_Close_thenUse() {$/;"	d
+testDriver_Close_thenUse	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_Close_thenUse() {$/;"	f
+testDriver_SetDutyCycle_dcRatioAboveMax	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_SetDutyCycle_dcRatioAboveMax() {$/;"	d
+testDriver_SetDutyCycle_dcRatioAboveMax	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_SetDutyCycle_dcRatioAboveMax() {$/;"	f
+testDriver_SetDutyCycle_dcRatioBelowMin	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_SetDutyCycle_dcRatioBelowMin() {$/;"	d
+testDriver_SetDutyCycle_dcRatioBelowMin	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_SetDutyCycle_dcRatioBelowMin() {$/;"	f
+testDriver_SetDutyCycle_with_inDcRatio	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_SetDutyCycle_with_inDcRatio() {$/;"	d
+testDriver_SetDutyCycle_with_inDcRatio	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_SetDutyCycle_with_inDcRatio() {$/;"	f
+testDriver_ensure_dutyCycle	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_ensure_dutyCycle(devFile *fakeFile) (goodPulses, badPulses int, lastErr error) {$/;"	d
+testDriver_ensure_dutyCycle	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_ensure_dutyCycle(devFile *fakeFile) (goodPulses, badPulses int, lastErr error) {$/;"	f
+testDriver_ensure_writesMinMaxSpeedValsCorrectly	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_ensure_writesMinMaxSpeedValsCorrectly(devFile *fakeFile) {$/;"	d
+testDriver_ensure_writesMinMaxSpeedValsCorrectly	fanpwm/lifecycle_test.go	/^func (lc *lifeCycleTest) testDriver_ensure_writesMinMaxSpeedValsCorrectly(devFile *fakeFile) {$/;"	f
+that	heatsink.go	/^\/\/ dutyCycler is a type that converts a temperature to a duty cycle ratio$/;"	d
+thermosense	thermosense/helpers_test.go	/^package thermosense$/;"	p
+thermosense	thermosense/lifecycle_test.go	/^package thermosense$/;"	p
+thermosense	thermosense/options.go	/^package thermosense$/;"	p
+thermosense	thermosense/sensor_internal.go	/^package thermosense$/;"	p
+thermosense	thermosense/thermosense.go	/^package thermosense$/;"	p
+thermosense	thermosense/thermosense_test.go	/^package thermosense$/;"	p
+to	cmd/config_test.go	/^			"expected fan response type to be set to '%s' if not given, got: '%s'",$/;"	d
+tryGenSinglePulse	fanpwm/driver_internal.go	/^func (dr *Driver) tryGenSinglePulse(dn, up time.Duration) error {$/;"	d
+tryGenSinglePulse	fanpwm/driver_internal.go	/^func (dr *Driver) tryGenSinglePulse(dn, up time.Duration) error {$/;"	f
+validate	config.go	/^func (c *Config) validate() error {$/;"	d
+validate	config.go	/^func (c *Config) validate() error {$/;"	f
+wg	cmd/main.go	/^	var wg sync.WaitGroup$/;"	d
+wg	fanpwm/fanpwm_test.go	/^	var wg sync.WaitGroup$/;"	d
+wg	heatsink_test.go	/^	var wg sync.WaitGroup$/;"	d
+wg	thermosense/thermosense_test.go	/^	var wg sync.WaitGroup$/;"	d
+wrOnlyFile	fanpwm/driver_internal.go	/^type wrOnlyFile interface {$/;"	d
+wrOnlyFile	fanpwm/driver_internal.go	/^type wrOnlyFile interface {$/;"	t
